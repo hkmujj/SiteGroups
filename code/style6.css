@@ -1,0 +1,79 @@
+@charset "gb2312";
+/* Style6 Õ®”√ */
+body,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td{margin:0;padding:0;font:12px/1.2 "Œ¢»Ì—≈∫⁄",tahoma,simsun,sans-serif;}table{border-collapse:collapse;border-spacing:0;}img{border:0;}address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal;}ol,ul{list-style:none;}caption,th{text-align:left;}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}q:before,q:after{content:'';}abbr,acronym{border:0;}h1{font-size:18px;}h2{font-size:16px;}h3{font-size:14px;}h1,h2,h3,h4,h5,h6,strong,dt{font-weight:bold;}optgroup{font-weight:normal;}abbr,acronym{border-bottom:1px dotted #000;cursor:help;}em{font-style:italic;}del{text-decoration:line-through;}ol li{list-style:decimal outside;}dl dd{margin-left:1em;}th{font-weight:bold;text-align:center;}caption{margin-bottom:.5em;text-align:center;}sup{vertical-align:super;}sub{vertical-align:sub;}button,input[type="checkbox"],input[type="radio"],input[type="reset"],input[type="submit"]{padding:1px;}.clear:after{content:".";display:block;height:0;clear:both;visibility:hidden;}a {color: #07679c;text-decoration: none;}a:hover {color: #FF7E00;text-decoration: none;}li{list-style:none;}.c{clear:both;}
+body {
+color: #C15017;
+background: #fdca7b;
+}
+#logo,.main{margin: 0 auto;
+width: 980px;}
+#footer, .link {
+background: #fee098;
+height: 50px;
+line-height: 50px;
+overflow:hidden;
+}
+#logo h1 {
+margin: 0 auto;
+width: 980px;
+height: 50px;
+line-height: 50px;
+}
+.main .content-left {
+width: 500px;
+float: left;
+}
+.main .content-left .con-title{ text-align:center;}
+.main .content-left .info{height:30px; line-height:30px; }
+.main .content-right{
+float:right;
+width:400px;}
+.pages {
+width: 500px;
+margin: 0 auto;
+height: 30px;
+line-height: 30px;
+text-align: center;
+}
+.main .content-left .con-body,.con-body p{line-height:24px;}
+.list {
+margin-top: 20px;
+border-bottom: 1px solid #fee098;
+padding-bottom: 15px;
+}
+.list-icon {
+float: left;
+width: 40px;
+height: 40px;
+}
+.list-name {
+margin: 0 0 10px 60px;
+line-height: 12px;
+}
+.list-detail {
+font-size: 14px;
+line-height: 24px;
+margin-left: 60px;
+word-wrap: break-word;
+}
+.content-right .newpost{padding: 10px;}
+.content-right .newpost li{ height:24px;line-height:24px;}
+.link_tit {
+width: 980px;
+margin: 0 auto;
+font-size: 14px;
+height: 30px;
+line-height: 30px;
+}
+.link ul, #footer p {
+width: 980px;
+text-align: center;
+margin: 0 auto;
+clear: both;
+height: 50px;
+line-height: 50px;
+}
+.link ul li {
+float: left;
+padding-right: 5px;
+}

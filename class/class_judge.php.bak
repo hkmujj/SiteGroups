@@ -1,0 +1,20 @@
+<?php
+ class   JDDATA{
+	 function judge_add($typedata,$num){
+	if(is_array($typedata)){
+		$countn = count($typedata);
+			if(count($typedata) < $num){
+				for($i=1;$i <= ($num- $countn + 1);$i++){
+					$typedata[$countn-$i] = $typedata[1];	
+				}	
+			}	
+		}
+		else{
+			$typedata2 = $typedata;
+			for($i=0;$i < $num;$i++){
+				$typedata[$i] = $typedata2;	
+			}	
+		}
+	 }
+}
+?>

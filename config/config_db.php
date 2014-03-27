@@ -1,0 +1,1 @@
+<?php $hostname='localhost';$username='root';$password='rong';$database='seo_new';$charset='utf8'; ?>

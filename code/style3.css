@@ -1,0 +1,88 @@
+@charset "gb2312";
+/* Style3 CSS Document */
+
+body,h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form,div, fieldset, legend, button, input, textarea, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+a{text-decoration:none;color: #444;}
+a:hover {text-decoration: underline;color: #A90101;}
+h1,h2,h3,h4,h5,h6 { font-weight:normal;font-size:12px;}
+table { border-collapse:collapse; border-spacing:0; }
+img { border: 0 none;padding: 0;margin: 0;display: block;}
+ol, ul, li { list-style: none; }
+i,b,em,strong { font-style:normal; text-decoration:none;}
+.c{clear:both;}
+body {
+color: #000;
+width:980px;
+margin:0 auto;
+font-family:'Microsoft YaHei','simsun','Lucida Grande','Lucida Sans Unicode'; font-size:12px;
+}
+#logo h1 a {
+font-size: 20px;
+line-height: 60px;
+height: 60px;
+display: block;
+}
+.con-title {
+font-size: 18px;
+float: left;
+}
+.info {
+color: #666;
+float: right;
+}
+.con-body {
+clear:both;
+text-indent: 2em;
+padding: 10px;
+line-height: 24px;
+}
+.pages {
+	text-align:center;
+}
+.list {
+margin-top: 20px;
+border-bottom: 1px solid #ddd;
+padding-bottom: 15px;
+}
+.list .list-icon {
+float: left;
+width: 40px;
+height: 40px;
+}
+.list .list-name {
+margin: 0 0 10px 60px;
+line-height: 12px;
+}
+.list .list-detail {
+font-size: 14px;
+line-height: 24px;
+margin-left: 60px;
+word-wrap: break-word;
+}
+.new {
+font-size: 16px;
+overflow: hidden;
+}
+.newpost li {
+float:left;
+width:350px;
+}
+.link {
+padding-top: 20px;
+overflow:hidden;
+}
+.link li {
+float: left;
+padding-right: 20px;
+}
+#footer {
+clear: both;
+text-align: center;
+height: 50px;
+line-height: 50px;
+color: #666;
+}

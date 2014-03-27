@@ -1,0 +1,120 @@
+@charset "gb2312";
+/* Style4 CSS Document */
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+h1,h2,h3,h4,h5,h6{
+	font-size: 12px;
+	font-weight: normal;
+}
+li {
+	list-style-type: none;
+}
+img {
+	border: 0px;
+}
+a {
+	color: rgb(102, 102, 102);
+	text-decoration: none;
+}
+.c{clear:both;}
+body {
+background: #fffdde;
+}
+#logo {
+width: 960px;
+margin: auto;
+height: 80px;
+overflow: hidden;
+background: #0f5b8c;
+}
+#logo h1 {
+height: 80px;
+line-height: 80px;
+}
+#logo h1 a {
+color: #efefef;
+font-size: 20px;
+font-family: Î¢ÈíÑÅºÚ;
+padding-left: 20px;
+}
+.main {
+width: 960px;
+margin: 0 auto;
+padding: 20px 0;
+background: #fff;
+}
+.con-title {
+font-size: 20px;
+color: #b20404;
+text-align: center;
+}
+.content-left {
+width: 670px;
+float: left;
+}
+.info {
+text-align: center;
+font-size: 12px;
+color: #666;
+padding: 10px;
+}
+.con-body {
+padding: 20px;
+color: #555;
+line-height: 22px;
+font-size: 12px;
+}
+.list {
+margin-top:18px;
+}
+.list .list-icon {
+float: left;
+width: 40px;
+height: 40px;
+}
+.list .list-name {
+margin: 0 0 5px 60px;
+line-height: 12px;
+font-size:12px;
+}
+.list .list-detail {
+font-size: 12px;
+margin-left: 60px;
+word-wrap: break-word;
+}
+.pages{ text-align:center;}
+.content-right {
+float: right;
+width: 230px;
+}
+.newpost li a {
+font-size: 12px;
+}
+.link {
+width: 960px;
+margin: 0 auto;
+overflow:hidden;
+}
+.link_tit {
+background: #ccc;
+font-family: Î¢ÈíÑÅºÚ;
+height: 30px;
+line-height: 30px;
+padding-left: 10px;
+color: #333;
+}
+.link li {
+float: left;
+padding-left: 5px;
+}
+#footer {
+clear: both;
+text-align: center;
+width: 960px;
+margin: 0 auto;
+height: 60px;
+line-height: 60px;
+}

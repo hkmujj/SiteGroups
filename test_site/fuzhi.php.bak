@@ -1,0 +1,30 @@
+<?php 
+class COPYDIR{
+		function xCopy($source, $destination, $child){   
+　　if(!is_dir($source)){  
+　　　　echo("Error:the $source is not a direction!");   
+　　　　return 0;   
+　　}  
+
+
+　　if(!is_dir($destination)){   
+　　　　mkdir($destination,0777);   
+　　}   
+ 
+　　$handle=dir($source);   
+　　while($entry=$handle->read()) {   
+　　　　if(($entry!=".")&&($entry!="..")){   
+　　　　　　if(is_dir($source."/".$entry)){   
+　　　　　　　　if($child)   
+　　　　　　　　xCopy($source."/".$entry,$destination."/".$entry,$child);   
+　　　　　　}   
+　　　　　　else{   
+　　　　　　　　copy($source."/".$entry,$destination."/".$entry);   
+　　　　　　}   
+　　　　}   
+　　}   
+ 
+　　return 1;   
+}  
+}
+?>

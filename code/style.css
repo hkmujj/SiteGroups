@@ -1,0 +1,69 @@
+@charset "gb2312";
+/* CSS Document */
+/*可通用 start*/
+*,div, html, body, p, ul, li, a, form, img, table, td, h1{margin:0;padding:0; list-style:none;}
+body {
+	background:{<css_body_color>};
+	font-size:{<css_body_font_size>};
+	color: #FFFFFF;
+	font-family:"{<css_font>}";
+}
+a {
+	text-decoration: none;
+	color: #00FF35;
+}
+a:hover {
+	text-decoration: underline;
+}
+/*可通用 end*/
+
+/*头部顶颜色条 start*/
+.{<main_content>}{ height:5px;margin:0 auto; background:#bbdbe7; border-bottom:1px solid #65a5d1; }
+/*头部顶颜色条 end*/
+
+/*头部 start*/
+.{<main_head>}{ width:980px; margin:0 auto;background:url({<logo_background_pic>});}
+.{<main_head>} h1{ margin:30px auto;}
+.{<main_head>} h1 a{ font-size:24px;color:{<logo_font_color>}; font-weight:bold; text-decoration:none;}
+/*头部 end*/
+.{<head_line>}{margin:0 auto; background:#094e7f; border-top:1px solid {<head_line_color>}; border-bottom:1px solid {<head_line_color>}; overflow:hidden;}	/*下划线 */
+/*中部 start*/
+.{<main>}{width:1006px; margin:0 auto; overflow:hidden;}
+.{<main>} li{width:1006px; margin:5px auto;}
+.{<main>} li .{<middle>}{ padding:5px 30px;background:{<pinglun_background_color>}; repeat-y 0 0; overflow:hidden;margin-top:{<pinglun_margin_top>}}
+.{<main>} li .{<middle>} p{color:#333; font-size:{<pinglun_font_size>}; line-height:{<pinglun_font_line_height>};}
+.{<main>} li .{<middle>} p.{<bline>}{margin-bottom:5px; border-bottom:1px dashed {<pinglun_fenjie_line_color>}; overflow:hidden;}
+.{<main>} li .{<middle>} p.{<bline>} img{border:1px solid #fff;padding:3px;float:left;}
+.{<main>} li .{<middle>} p span{font-weight:bold; margin-top:15px;}
+.{<main>} li .{<middle>} p span.bitem1{float:left; margin-left:10px; color:{<bitem1_color>};}
+.{<main>} li .{<middle>} p span.bitem2{float:left; margin-left:10px; color:{<bitem2_color>};}
+/*分布Li样式 start*/
+.{<plist>}{width:980px; margin:10px auto; clear:both;}
+.{<plist>} a{background:#d5ebfa;border:1px solid #1a7bc0;color:#002e4f;display: inline-block;height: 14px;line-height: 14px;padding: 3px 10px;}
+.{<plist>} a:hover{color:{<plist_a_color>};border: 1px solid {<plist_a_border_color>};background:{<plist_a_background_color>};text-decoration:none;}
+.{<plist>} span{font-weight:bold;color:{<plist_a_color>};padding: 3px 5px;}
+/*友情链接*/
+.{<flink>}{width: 980px; margin:0 auto; overflow:hidden;}
+.{<flink>} li{ margin:0 5px;padding:5px 3px;float:left;}
+.{<flink>} li a{color:#BBDBE7; text-decoration:none;}
+.{<flink>} li a:hover{color:#BBDBE7; text-decoration:underline;}
+
+/*底部*/
+.{<foot>} {
+	clear: both;
+	margin: 20px auto 0;
+    background: {<foot_background_color>};
+    border-top: 5px solid {<foot_line_color>};
+    padding:10px 0;
+}
+.{<foot>} p {
+	font-size:12px;
+	margin: 0;
+	padding: 5px 0 15px;
+    text-align: center;
+	color:{<copyright_color>};
+}
+.{<foot>} a {
+	color:#5B8FB4;
+	font-size:12px;
+}
